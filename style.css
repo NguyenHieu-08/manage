@@ -1,0 +1,59 @@
+input[type='button'] {
+    background-color: #82CD47;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+#form-1 {
+    position: relative;
+    display: inline-block;
+    width: 26rem;
+    background-color: #D8D9CF;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+#newproduct {
+    width: 20rem;
+    height: 1.6rem;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 2px solid #EAEAEA;
+}
+
+table {
+    width: 60rem;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+
+#productNameTitle {
+    font-size: 20px;
+    text-align: left;
+}
+
+#product {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    text-align: right;
+}
+
+td:first-child{
+    width: 25rem;
+    font-size: 20px;
+}
+
+tr:nth-child(odd) {
+    background-color: #EEEEEE;
+}
+
+td {
+    padding: 10px;
+}
